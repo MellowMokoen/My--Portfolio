@@ -12,9 +12,9 @@ export default function Main() {
         alt="background-image"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/25">
-        <div>
+        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <h1></h1>
-          <h2>
+          <h2 className="flex sm:text-3xl text-2xl pt-4 text-orange-600">
             I am a
             <TypeAnimation
               sequence={[
@@ -37,7 +37,7 @@ export default function Main() {
               repeat={Infinity}
             />
           </h2>
-          <div>
+          <div className="flex justify-between pt-5 max-w-[200px] w-full">
             <FaTwitter className="cursor-pointer" size={18} />
             <FaLinkedinIn className="cursor-pointer" size={18} />
             <FaGithub className="cursor-pointer" size={18} />
