@@ -33,14 +33,25 @@ export default function Main() {
                 fontSize: "1em",
                 display: "inline-block",
                 paddingLeft: "5px",
+                color: "black",
+                fontWeight: "bolder",
               }}
               repeat={Infinity}
             />
           </h2>
           <div className="flex justify-between pt-5 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={18} />
-            <FaLinkedinIn className="cursor-pointer" size={18} />
-            <FaGithub className="cursor-pointer" size={18} />
+            <FaTwitter
+              className="cursor-pointer shadow-lg shadow-gray-500 rounded-full w-10 bg-orange-200"
+              size={22}
+            />
+            <FaLinkedinIn
+              className="cursor-pointer shadow-lg shadow-gray-500 m-4 w-10 rounded-full bg-orange-200"
+              size={22}
+            />
+            <FaGithub
+              className="cursor-pointer shadow-lg shadow-gray-500 rounded-full w-10 bg-orange-200"
+              size={22}
+            />
           </div>
         </div>
       </div>
